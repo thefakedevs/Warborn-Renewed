@@ -227,49 +227,49 @@ public class WarbornArmorItem extends ArmorItem implements GeoItem, DyeableLeath
         Multimap<Attribute, AttributeModifier> mods = getAttributeModifiers(slot, stack);
 
         // Собираем значения по нужным атрибутам
-        double bulletRes = 0.0;
-        int protClass = 0;
+        double bulletRes = 0.2;
+        int protClass = 2;
         double blastMult = 1.0; // значение по умолчанию — 1.0 (без изменений)
         double moveMod = 0.0;
 
-        Attribute bulletAttr = ru.liko.warbornrenewed.registry.ModAttributes.BULLET_RESISTANCE.get();
-        Attribute protAttr = ru.liko.warbornrenewed.registry.ModAttributes.PROTECTION_CLASS.get();
-        Attribute blastAttr = ru.liko.warbornrenewed.registry.ModAttributes.BLAST_DAMAGE_MULTIPLIER.get();
-        Attribute moveAttr = ru.liko.warbornrenewed.registry.ModAttributes.ARMOR_MOVEMENT_SPEED.get();
+//        Attribute bulletAttr = ru.liko.warbornrenewed.registry.ModAttributes.BULLET_RESISTANCE.get();
+//        Attribute protAttr = ru.liko.warbornrenewed.registry.ModAttributes.PROTECTION_CLASS.get();
+//        Attribute blastAttr = ru.liko.warbornrenewed.registry.ModAttributes.BLAST_DAMAGE_MULTIPLIER.get();
+//        Attribute moveAttr = ru.liko.warbornrenewed.registry.ModAttributes.ARMOR_MOVEMENT_SPEED.get();
 
-        if (mods != null && !mods.isEmpty()) {
-            // Суммируем модификаторы для каждого атрибута (ADD/MULTIPLY_BASE и т.п.)
-            for (var entry : mods.entries()) {
-                Attribute attr = entry.getKey();
-                AttributeModifier mod = entry.getValue();
-                double amt = mod.getAmount();
-
-                if (attr == bulletAttr) {
-                    if (mod.getOperation() == AttributeModifier.Operation.ADDITION) {
-                        bulletRes += amt;
-                    } else if (mod.getOperation() == AttributeModifier.Operation.MULTIPLY_BASE) {
-                        bulletRes *= (1.0 + amt);
-                    }
-                } else if (attr == protAttr) {
-                    if (mod.getOperation() == AttributeModifier.Operation.ADDITION) {
-                        protClass += (int) Math.round(amt);
-                    }
-                } else if (attr == blastAttr) {
-                    // В ArmorAttributeSpec мы записываем multiplier - 1.0 при MULTIPLY_BASE
-                    if (mod.getOperation() == AttributeModifier.Operation.MULTIPLY_BASE) {
-                        blastMult *= (1.0 + amt);
-                    } else if (mod.getOperation() == AttributeModifier.Operation.ADDITION) {
-                        blastMult += amt;
-                    }
-                } else if (attr == moveAttr) {
-                    if (mod.getOperation() == AttributeModifier.Operation.ADDITION) {
-                        moveMod += amt;
-                    } else if (mod.getOperation() == AttributeModifier.Operation.MULTIPLY_BASE) {
-                        moveMod *= (1.0 + amt);
-                    }
-                }
-            }
-        }
+//        if (mods != null && !mods.isEmpty()) {
+//            // Суммируем модификаторы для каждого атрибута (ADD/MULTIPLY_BASE и т.п.)
+//            for (var entry : mods.entries()) {
+//                Attribute attr = entry.getKey();
+//                AttributeModifier mod = entry.getValue();
+//                double amt = mod.getAmount();
+//
+//                if (attr == bulletAttr) {
+//                    if (mod.getOperation() == AttributeModifier.Operation.ADDITION) {
+//                        bulletRes += amt;
+//                    } else if (mod.getOperation() == AttributeModifier.Operation.MULTIPLY_BASE) {
+//                        bulletRes *= (1.0 + amt);
+//                    }
+//                } else if (attr == protAttr) {
+//                    if (mod.getOperation() == AttributeModifier.Operation.ADDITION) {
+//                        protClass += (int) Math.round(amt);
+//                    }
+//                } else if (attr == blastAttr) {
+//                    // В ArmorAttributeSpec мы записываем multiplier - 1.0 при MULTIPLY_BASE
+//                    if (mod.getOperation() == AttributeModifier.Operation.MULTIPLY_BASE) {
+//                        blastMult *= (1.0 + amt);
+//                    } else if (mod.getOperation() == AttributeModifier.Operation.ADDITION) {
+//                        blastMult += amt;
+//                    }
+//                } else if (attr == moveAttr) {
+//                    if (mod.getOperation() == AttributeModifier.Operation.ADDITION) {
+//                        moveMod += amt;
+//                    } else if (mod.getOperation() == AttributeModifier.Operation.MULTIPLY_BASE) {
+//                        moveMod *= (1.0 + amt);
+//                    }
+//                }
+//            }
+//        }
 
         // Ограничим значения в разумных пределах
         bulletRes = Math.max(0.0, Math.min(1.0, bulletRes));
