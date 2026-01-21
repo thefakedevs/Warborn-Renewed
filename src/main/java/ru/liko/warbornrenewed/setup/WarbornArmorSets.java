@@ -61,9 +61,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/6b47.geo.json")
                                         .texture("warbornrenewed:textures/6b47/6b47-atacsfg.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.35D)
-                                .attribute(ArmorAttributeSpec.protectionClass(1))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // Desert
                         .helmet(piece -> piece
@@ -73,9 +73,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/6b47.geo.json")
                                         .texture("warbornrenewed:textures/6b47/6b47-desert.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.35D)
-                                .attribute(ArmorAttributeSpec.protectionClass(1))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // EMR
                         .helmet(piece -> piece
@@ -85,9 +85,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/6b47.geo.json")
                                         .texture("warbornrenewed:textures/6b47/6b47-emr.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.35D)
-                                .attribute(ArmorAttributeSpec.protectionClass(1))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // Green
                         .helmet(piece -> piece
@@ -97,9 +97,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/6b47.geo.json")
                                         .texture("warbornrenewed:textures/6b47/6b47-green.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.35D)
-                                .attribute(ArmorAttributeSpec.protectionClass(1))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // Winter EMR
                         .helmet(piece -> piece
@@ -109,9 +109,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/6b47.geo.json")
                                         .texture("warbornrenewed:textures/6b47/6b47-winteremr.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.35D)
-                                .attribute(ArmorAttributeSpec.protectionClass(1))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
         );
     }
@@ -130,9 +130,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/opscore.geo.json")
                                         .texture("warbornrenewed:textures/opscore/opscore.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.40D)
-                                .attribute(ArmorAttributeSpec.protectionClass(2))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.03D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // ATACS-FG
                         .helmet(piece -> piece
@@ -142,9 +142,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/opscore.geo.json")
                                         .texture("warbornrenewed:textures/opscore/opscore-atacsfg.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.40D)
-                                .attribute(ArmorAttributeSpec.protectionClass(2))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.03D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // Black
                         .helmet(piece -> piece
@@ -154,9 +154,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/opscore.geo.json")
                                         .texture("warbornrenewed:textures/opscore/opscore-black.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.40D)
-                                .attribute(ArmorAttributeSpec.protectionClass(2))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.03D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // Desert
                         .helmet(piece -> piece
@@ -166,9 +166,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/opscore.geo.json")
                                         .texture("warbornrenewed:textures/opscore/opscore-desert.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.40D)
-                                .attribute(ArmorAttributeSpec.protectionClass(2))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.03D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // EMR
                         .helmet(piece -> piece
@@ -178,9 +178,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/opscore.geo.json")
                                         .texture("warbornrenewed:textures/opscore/opscore-emr.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.40D)
-                                .attribute(ArmorAttributeSpec.protectionClass(2))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.03D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // Green
                         .helmet(piece -> piece
@@ -190,9 +190,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/opscore.geo.json")
                                         .texture("warbornrenewed:textures/opscore/opscore-green.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.40D)
-                                .attribute(ArmorAttributeSpec.protectionClass(2))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.03D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // MM14
                         .helmet(piece -> piece
@@ -202,9 +202,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/opscore.geo.json")
                                         .texture("warbornrenewed:textures/opscore/opscore-mm14.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.40D)
-                                .attribute(ArmorAttributeSpec.protectionClass(2))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.03D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // Multicam
                         .helmet(piece -> piece
@@ -214,9 +214,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/opscore.geo.json")
                                         .texture("warbornrenewed:textures/opscore/opscore-multicam.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.40D)
-                                .attribute(ArmorAttributeSpec.protectionClass(2))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.03D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // White
                         .helmet(piece -> piece
@@ -226,9 +226,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/opscore.geo.json")
                                         .texture("warbornrenewed:textures/opscore/opscore-white.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.40D)
-                                .attribute(ArmorAttributeSpec.protectionClass(2))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.03D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
         );
     }
@@ -247,9 +247,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/panama.geo.json")
                                         .texture("warbornrenewed:textures/panama/panama-atacsfg.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.0D)
+                                .bulletResistance(0.20D)
                                 .attribute(ArmorAttributeSpec.protectionClass(0))
-                                .attribute(ArmorAttributeSpec.movementSpeed(0.0D)))
+                                .attribute(ArmorAttributeSpec.movementSpeed(0.00D)))
                         // Desert
                         .helmet(piece -> piece
                                 .registryName("panama-desert")
@@ -258,9 +258,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/panama.geo.json")
                                         .texture("warbornrenewed:textures/panama/panama-desert.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.0D)
+                                .bulletResistance(0.20D)
                                 .attribute(ArmorAttributeSpec.protectionClass(0))
-                                .attribute(ArmorAttributeSpec.movementSpeed(0.0D)))
+                                .attribute(ArmorAttributeSpec.movementSpeed(0.00D)))
                         // EMR
                         .helmet(piece -> piece
                                 .registryName("panama-emr")
@@ -269,9 +269,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/panama.geo.json")
                                         .texture("warbornrenewed:textures/panama/panama-emr.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.0D)
+                                .bulletResistance(0.20D)
                                 .attribute(ArmorAttributeSpec.protectionClass(0))
-                                .attribute(ArmorAttributeSpec.movementSpeed(0.0D)))
+                                .attribute(ArmorAttributeSpec.movementSpeed(0.00D)))
                         // Green
                         .helmet(piece -> piece
                                 .registryName("panama-green")
@@ -280,9 +280,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/panama.geo.json")
                                         .texture("warbornrenewed:textures/panama/panama-green.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.0D)
+                                .bulletResistance(0.20D)
                                 .attribute(ArmorAttributeSpec.protectionClass(0))
-                                .attribute(ArmorAttributeSpec.movementSpeed(0.0D)))
+                                .attribute(ArmorAttributeSpec.movementSpeed(0.00D)))
                         // Multicam
                         .helmet(piece -> piece
                                 .registryName("panama-multicam")
@@ -291,9 +291,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/panama.geo.json")
                                         .texture("warbornrenewed:textures/panama/panama-multicam.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.0D)
+                                .bulletResistance(0.20D)
                                 .attribute(ArmorAttributeSpec.protectionClass(0))
-                                .attribute(ArmorAttributeSpec.movementSpeed(0.0D)))
+                                .attribute(ArmorAttributeSpec.movementSpeed(0.00D)))
                         // UCP
                         .helmet(piece -> piece
                                 .registryName("panama-ucp")
@@ -302,9 +302,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/panama.geo.json")
                                         .texture("warbornrenewed:textures/panama/panama-ucp.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.0D)
+                                .bulletResistance(0.20D)
                                 .attribute(ArmorAttributeSpec.protectionClass(0))
-                                .attribute(ArmorAttributeSpec.movementSpeed(0.0D)))
+                                .attribute(ArmorAttributeSpec.movementSpeed(0.00D)))
                         // White
                         .helmet(piece -> piece
                                 .registryName("panama-white")
@@ -313,9 +313,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/panama.geo.json")
                                         .texture("warbornrenewed:textures/panama/panama-white.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.0D)
+                                .bulletResistance(0.20D)
                                 .attribute(ArmorAttributeSpec.protectionClass(0))
-                                .attribute(ArmorAttributeSpec.movementSpeed(0.0D)))
+                                .attribute(ArmorAttributeSpec.movementSpeed(0.00D)))
         );
     }
 
@@ -333,9 +333,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/pastgt.geo.json")
                                         .texture("warbornrenewed:textures/pastgt/pastgt-black.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.30D)
-                                .attribute(ArmorAttributeSpec.protectionClass(1))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // Blue
                         .helmet(piece -> piece
@@ -345,9 +345,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/pastgt.geo.json")
                                         .texture("warbornrenewed:textures/pastgt/pastgt-blue.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.30D)
-                                .attribute(ArmorAttributeSpec.protectionClass(1))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // Desert
                         .helmet(piece -> piece
@@ -357,9 +357,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/pastgt.geo.json")
                                         .texture("warbornrenewed:textures/pastgt/pastgt-desert.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.30D)
-                                .attribute(ArmorAttributeSpec.protectionClass(1))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // Green
                         .helmet(piece -> piece
@@ -369,9 +369,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/pastgt.geo.json")
                                         .texture("warbornrenewed:textures/pastgt/pastgt-green.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.30D)
-                                .attribute(ArmorAttributeSpec.protectionClass(1))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // MM14
                         .helmet(piece -> piece
@@ -381,9 +381,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/pastgt.geo.json")
                                         .texture("warbornrenewed:textures/pastgt/pastgt-mm14.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.30D)
-                                .attribute(ArmorAttributeSpec.protectionClass(1))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // Multicam
                         .helmet(piece -> piece
@@ -393,9 +393,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/pastgt.geo.json")
                                         .texture("warbornrenewed:textures/pastgt/pastgt-multicam.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.30D)
-                                .attribute(ArmorAttributeSpec.protectionClass(1))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // White
                         .helmet(piece -> piece
@@ -405,9 +405,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/pastgt.geo.json")
                                         .texture("warbornrenewed:textures/pastgt/pastgt-white.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.30D)
-                                .attribute(ArmorAttributeSpec.protectionClass(1))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
         );
     }
@@ -434,9 +434,9 @@ public class WarbornArmorSets {
                                         .rightArm("armorRightArm")
                                         .leftArm("armorLeftArm"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.55D)
-                                .attribute(ArmorAttributeSpec.protectionClass(5))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.50D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.08D)))
                         // Desert
                         .chestplate(piece -> piece
@@ -450,9 +450,9 @@ public class WarbornArmorSets {
                                         .rightArm("armorRightArm")
                                         .leftArm("armorLeftArm"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.55D)
-                                .attribute(ArmorAttributeSpec.protectionClass(5))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.50D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.08D)))
         );
     }
@@ -473,9 +473,9 @@ public class WarbornArmorSets {
                                 .bones(bones -> bones
                                         .body("armorBody"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.50D)
-                                .attribute(ArmorAttributeSpec.protectionClass(4))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.40D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.07D)))
                         // Desert
                         .chestplate(piece -> piece
@@ -487,9 +487,9 @@ public class WarbornArmorSets {
                                 .bones(bones -> bones
                                         .body("armorBody"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.50D)
-                                .attribute(ArmorAttributeSpec.protectionClass(4))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.40D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.07D)))
                         // Green
                         .chestplate(piece -> piece
@@ -501,9 +501,9 @@ public class WarbornArmorSets {
                                 .bones(bones -> bones
                                         .body("armorBody"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.50D)
-                                .attribute(ArmorAttributeSpec.protectionClass(4))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.40D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.07D)))
                         // Multicam
                         .chestplate(piece -> piece
@@ -515,9 +515,9 @@ public class WarbornArmorSets {
                                 .bones(bones -> bones
                                         .body("armorBody"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.50D)
-                                .attribute(ArmorAttributeSpec.protectionClass(4))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.40D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.07D)))
                         // UCP
                         .chestplate(piece -> piece
@@ -529,9 +529,9 @@ public class WarbornArmorSets {
                                 .bones(bones -> bones
                                         .body("armorBody"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.50D)
-                                .attribute(ArmorAttributeSpec.protectionClass(4))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.40D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.07D)))
                         // White
                         .chestplate(piece -> piece
@@ -543,9 +543,9 @@ public class WarbornArmorSets {
                                 .bones(bones -> bones
                                         .body("armorBody"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.50D)
-                                .attribute(ArmorAttributeSpec.protectionClass(4))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.40D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.07D)))
         );
     }
@@ -566,9 +566,9 @@ public class WarbornArmorSets {
                                 .bones(bones -> bones
                                         .body("armorBody"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.RARE))
-                                .bulletResistance(0.60D)
-                                .attribute(ArmorAttributeSpec.protectionClass(5))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.45D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.06D)))
                         // Desert
                         .chestplate(piece -> piece
@@ -580,9 +580,9 @@ public class WarbornArmorSets {
                                 .bones(bones -> bones
                                         .body("armorBody"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.RARE))
-                                .bulletResistance(0.60D)
-                                .attribute(ArmorAttributeSpec.protectionClass(5))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.45D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.06D)))
                         // Green
                         .chestplate(piece -> piece
@@ -594,9 +594,9 @@ public class WarbornArmorSets {
                                 .bones(bones -> bones
                                         .body("armorBody"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.RARE))
-                                .bulletResistance(0.60D)
-                                .attribute(ArmorAttributeSpec.protectionClass(5))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.45D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.06D)))
                         // MM14
                         .chestplate(piece -> piece
@@ -608,9 +608,9 @@ public class WarbornArmorSets {
                                 .bones(bones -> bones
                                         .body("armorBody"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.RARE))
-                                .bulletResistance(0.60D)
-                                .attribute(ArmorAttributeSpec.protectionClass(5))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.45D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.06D)))
                         // Multicam
                         .chestplate(piece -> piece
@@ -622,9 +622,9 @@ public class WarbornArmorSets {
                                 .bones(bones -> bones
                                         .body("armorBody"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.RARE))
-                                .bulletResistance(0.60D)
-                                .attribute(ArmorAttributeSpec.protectionClass(5))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.45D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.06D)))
                         // UCP
                         .chestplate(piece -> piece
@@ -636,9 +636,9 @@ public class WarbornArmorSets {
                                 .bones(bones -> bones
                                         .body("armorBody"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.RARE))
-                                .bulletResistance(0.60D)
-                                .attribute(ArmorAttributeSpec.protectionClass(5))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.45D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.06D)))
                         // White
                         .chestplate(piece -> piece
@@ -650,9 +650,9 @@ public class WarbornArmorSets {
                                 .bones(bones -> bones
                                         .body("armorBody"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.RARE))
-                                .bulletResistance(0.60D)
-                                .attribute(ArmorAttributeSpec.protectionClass(5))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.45D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.06D)))
         );
     }
@@ -675,9 +675,9 @@ public class WarbornArmorSets {
                                         .rightArm("armorRightArm")
                                         .leftArm("armorLeftArm"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.RARE))
-                                .bulletResistance(0.55D)
-                                .attribute(ArmorAttributeSpec.protectionClass(4))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.20D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.05D)))
                         // Desert
                         .chestplate(piece -> piece
@@ -691,9 +691,9 @@ public class WarbornArmorSets {
                                         .rightArm("armorRightArm")
                                         .leftArm("armorLeftArm"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.RARE))
-                                .bulletResistance(0.55D)
-                                .attribute(ArmorAttributeSpec.protectionClass(4))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.20D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.05D)))
         );
     }
@@ -716,9 +716,9 @@ public class WarbornArmorSets {
                                         .rightArm("armorRightArm")
                                         .leftArm("armorLeftArm"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.EPIC))
-                                .bulletResistance(0.60D)
-                                .attribute(ArmorAttributeSpec.protectionClass(5))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.10D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.04D)))
                         // Desert
                         .chestplate(piece -> piece
@@ -732,9 +732,9 @@ public class WarbornArmorSets {
                                         .rightArm("armorRightArm")
                                         .leftArm("armorLeftArm"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.EPIC))
-                                .bulletResistance(0.60D)
-                                .attribute(ArmorAttributeSpec.protectionClass(5))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.10D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.04D)))
         );
     }
@@ -754,9 +754,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/nato-helmet-wood.geo.json")
                                         .texture("warbornrenewed:textures/nato-wood.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.40D)
-                                .attribute(ArmorAttributeSpec.protectionClass(3))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.03D)))
                         .chestplate(piece -> piece
                                 .registryName("nato-wood-chestplate")
@@ -766,9 +766,9 @@ public class WarbornArmorSets {
                                         .texture("warbornrenewed:textures/nato-wood.png"))
                                 .bones(bones -> bones.body("armorBody"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.RARE))
-                                .bulletResistance(0.50D)
-                                .attribute(ArmorAttributeSpec.protectionClass(4))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.25D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.06D)))
         );
 
@@ -782,9 +782,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/nato-helmet-sand.geo.json")
                                         .texture("warbornrenewed:textures/nato-sand.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.40D)
-                                .attribute(ArmorAttributeSpec.protectionClass(3))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.03D)))
                         .chestplate(piece -> piece
                                 .registryName("nato-sand-chestplate")
@@ -794,9 +794,9 @@ public class WarbornArmorSets {
                                         .texture("warbornrenewed:textures/nato-sand.png"))
                                 .bones(bones -> bones.body("armorBody"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.RARE))
-                                .bulletResistance(0.50D)
-                                .attribute(ArmorAttributeSpec.protectionClass(4))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.25D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.06D)))
         );
     }
@@ -822,9 +822,9 @@ public class WarbornArmorSets {
                                         .animation("warbornrenewed:animations/gpngv-nato-helmet-woodland.animation.json")
                                         .nvgShader("warbornrenewed:shaders/post/gpngv.json"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.EPIC))
-                                .bulletResistance(0.40D)
-                                .attribute(ArmorAttributeSpec.protectionClass(3))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.03D)))
                         // NATO GPNVG Desert
                         .helmet(piece -> piece
@@ -837,9 +837,9 @@ public class WarbornArmorSets {
                                         .animation("warbornrenewed:animations/gpngv-nato-helmet-woodland.animation.json")
                                         .nvgShader("warbornrenewed:shaders/post/gpngv.json"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.EPIC))
-                                .bulletResistance(0.40D)
-                                .attribute(ArmorAttributeSpec.protectionClass(3))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.03D)))
                         // Ratnik 10T Wood
                         .helmet(piece -> piece
@@ -852,9 +852,9 @@ public class WarbornArmorSets {
                                         .animation("warbornrenewed:animations/ratnik10t.animation.json")
                                         .nvgShader("warbornrenewed:shaders/post/pnv10t.json"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.EPIC))
-                                .bulletResistance(0.35D)
-                                .attribute(ArmorAttributeSpec.protectionClass(2))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.03D)))
                         // Ratnik 10T Desert
                         .helmet(piece -> piece
@@ -867,9 +867,9 @@ public class WarbornArmorSets {
                                         .animation("warbornrenewed:animations/ratnik10t.animation.json")
                                         .nvgShader("warbornrenewed:shaders/post/pnv10t.json"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.EPIC))
-                                .bulletResistance(0.35D)
-                                .attribute(ArmorAttributeSpec.protectionClass(2))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.03D)))
                         // Opscore FC-B2200 Voevoda
                         .helmet(piece -> piece
@@ -882,9 +882,9 @@ public class WarbornArmorSets {
                                         .animation("warbornrenewed:animations/fc-b2200.animation.json")
                                         .nvgShader("warbornrenewed:shaders/post/fc-b2200.json"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.EPIC))
-                                .bulletResistance(0.45D)
-                                .attribute(ArmorAttributeSpec.protectionClass(3))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.03D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
                         // 6B47 FC-B2200 SSO
                         .helmet(piece -> piece
@@ -897,9 +897,9 @@ public class WarbornArmorSets {
                                         .animation("warbornrenewed:animations/6b47-fc-b2200.animation.json")
                                         .nvgShader("warbornrenewed:shaders/post/fc-b2200.json"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.EPIC))
-                                .bulletResistance(0.40D)
-                                .attribute(ArmorAttributeSpec.protectionClass(2))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
         );
     }
@@ -921,9 +921,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/press-helmet.geo.json")
                                         .texture("warbornrenewed:textures/press.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.COMMON))
-                                .bulletResistance(0.30D)
-                                .attribute(ArmorAttributeSpec.protectionClass(1))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.02D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.01D)))
                         .chestplate(piece -> piece
                                 .registryName("press-vest")
@@ -936,9 +936,9 @@ public class WarbornArmorSets {
                                         .rightArm("armorRightArm")
                                         .leftArm("armorLeftArm"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.RARE))
-                                .bulletResistance(0.50D)
-                                .attribute(ArmorAttributeSpec.protectionClass(4))
-                                .attribute(ArmorAttributeSpec.blastResistance(0.30D))
+                                .bulletResistance(0.20D)
+                                .attribute(ArmorAttributeSpec.protectionClass(0))
+                                .attribute(ArmorAttributeSpec.blastResistance(0.00D))
                                 .attribute(ArmorAttributeSpec.movementSpeed(-0.02D)))
         );
     }
@@ -988,9 +988,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/ghillie-helmet.geo.json")
                                         .texture("warbornrenewed:textures/ghille-desert.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.0D)
+                                .bulletResistance(0.20D)
                                 .attribute(ArmorAttributeSpec.protectionClass(0))
-                                .attribute(ArmorAttributeSpec.movementSpeed(0.0D)))
+                                .attribute(ArmorAttributeSpec.movementSpeed(0.00D)))
                         .chestplate(piece -> piece
                                 .registryName("ghillie-body-desert")
                                 .material(type -> ModArmorMaterials.LEATHER)
@@ -1002,9 +1002,9 @@ public class WarbornArmorSets {
                                         .rightArm("armorRightArm")
                                         .leftArm("armorLeftArm"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.0D)
+                                .bulletResistance(0.20D)
                                 .attribute(ArmorAttributeSpec.protectionClass(0))
-                                .attribute(ArmorAttributeSpec.movementSpeed(0.0D)))
+                                .attribute(ArmorAttributeSpec.movementSpeed(0.00D)))
                         .leggings(piece -> piece
                                 .registryName("ghillie-legs-desert")
                                 .material(type -> ModArmorMaterials.LEATHER)
@@ -1016,9 +1016,9 @@ public class WarbornArmorSets {
                                         .rightLeg("armorRightLeg")
                                         .leftLeg("armorLeftLeg"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.0D)
+                                .bulletResistance(0.20D)
                                 .attribute(ArmorAttributeSpec.protectionClass(0))
-                                .attribute(ArmorAttributeSpec.movementSpeed(0.0D)))
+                                .attribute(ArmorAttributeSpec.movementSpeed(0.00D)))
         );
 
         // Jungle
@@ -1031,9 +1031,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/ghillie-helmet.geo.json")
                                         .texture("warbornrenewed:textures/ghille-jungle.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.0D)
+                                .bulletResistance(0.20D)
                                 .attribute(ArmorAttributeSpec.protectionClass(0))
-                                .attribute(ArmorAttributeSpec.movementSpeed(0.0D)))
+                                .attribute(ArmorAttributeSpec.movementSpeed(0.00D)))
                         .chestplate(piece -> piece
                                 .registryName("ghillie-body-jungle")
                                 .material(type -> ModArmorMaterials.LEATHER)
@@ -1045,9 +1045,9 @@ public class WarbornArmorSets {
                                         .rightArm("armorRightArm")
                                         .leftArm("armorLeftArm"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.0D)
+                                .bulletResistance(0.20D)
                                 .attribute(ArmorAttributeSpec.protectionClass(0))
-                                .attribute(ArmorAttributeSpec.movementSpeed(0.0D)))
+                                .attribute(ArmorAttributeSpec.movementSpeed(0.00D)))
                         .leggings(piece -> piece
                                 .registryName("ghillie-legs-jungle")
                                 .material(type -> ModArmorMaterials.LEATHER)
@@ -1059,9 +1059,9 @@ public class WarbornArmorSets {
                                         .rightLeg("armorRightLeg")
                                         .leftLeg("armorLeftLeg"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.0D)
+                                .bulletResistance(0.20D)
                                 .attribute(ArmorAttributeSpec.protectionClass(0))
-                                .attribute(ArmorAttributeSpec.movementSpeed(0.0D)))
+                                .attribute(ArmorAttributeSpec.movementSpeed(0.00D)))
         );
 
         // Winter
@@ -1074,9 +1074,9 @@ public class WarbornArmorSets {
                                         .model("warbornrenewed:geo/ghillie-helmet.geo.json")
                                         .texture("warbornrenewed:textures/ghille-winter.png"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.0D)
+                                .bulletResistance(0.20D)
                                 .attribute(ArmorAttributeSpec.protectionClass(0))
-                                .attribute(ArmorAttributeSpec.movementSpeed(0.0D)))
+                                .attribute(ArmorAttributeSpec.movementSpeed(0.00D)))
                         .chestplate(piece -> piece
                                 .registryName("ghillie-body-winter")
                                 .material(type -> ModArmorMaterials.LEATHER)
@@ -1088,9 +1088,9 @@ public class WarbornArmorSets {
                                         .rightArm("armorRightArm")
                                         .leftArm("armorLeftArm"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.0D)
+                                .bulletResistance(0.20D)
                                 .attribute(ArmorAttributeSpec.protectionClass(0))
-                                .attribute(ArmorAttributeSpec.movementSpeed(0.0D)))
+                                .attribute(ArmorAttributeSpec.movementSpeed(0.00D)))
                         .leggings(piece -> piece
                                 .registryName("ghillie-legs-winter")
                                 .material(type -> ModArmorMaterials.LEATHER)
@@ -1102,9 +1102,9 @@ public class WarbornArmorSets {
                                         .rightLeg("armorRightLeg")
                                         .leftLeg("armorLeftLeg"))
                                 .properties(props -> props.stacksTo(1).rarity(Rarity.UNCOMMON))
-                                .bulletResistance(0.0D)
+                                .bulletResistance(0.20D)
                                 .attribute(ArmorAttributeSpec.protectionClass(0))
-                                .attribute(ArmorAttributeSpec.movementSpeed(0.0D)))
+                                .attribute(ArmorAttributeSpec.movementSpeed(0.00D)))
         );
     }
 }
