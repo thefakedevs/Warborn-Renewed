@@ -176,7 +176,7 @@
   "tooltip.warbornrenewed.reb.status": "Статус РЭБ: %s",
   "tooltip.warbornrenewed.reb.enabled": "Включен",
   "tooltip.warbornrenewed.reb.disabled": "Выключен",
-  "tooltip.warbornrenewed.reb.radius": "Радиус глушения: %s блоков",
+  "tooltip.warbornrenewed.reb.radius": "Зона глушения: %s блоков",
   "tooltip.warbornrenewed.reb.wrbdrones_compat": "Совместим с WRBDrones",
 
   "_comment_subtitles": "===== Субтитры =====",

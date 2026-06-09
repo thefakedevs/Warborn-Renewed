@@ -36,7 +36,7 @@ public class RebBackpackItem extends Item implements GeoItem {
     public static final String NBT_REB_ENABLED = "reb_enabled";
     
     // Радиус действия РЭБ рюкзака (меньше чем у стационарного)
-    public static final double REB_BACKPACK_RADIUS = 30.0;
+    public static final double REB_BACKPACK_RADIUS = 15.0;
     
     private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
     private final String variantId;

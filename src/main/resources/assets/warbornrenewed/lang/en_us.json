@@ -176,7 +176,7 @@
   "tooltip.warbornrenewed.reb.status": "REB Status: %s",
   "tooltip.warbornrenewed.reb.enabled": "Enabled",
   "tooltip.warbornrenewed.reb.disabled": "Disabled",
-  "tooltip.warbornrenewed.reb.radius": "Jamming Radius: %s blocks",
+  "tooltip.warbornrenewed.reb.radius": "Jamming Zone: %s blocks",
   "tooltip.warbornrenewed.reb.wrbdrones_compat": "Compatible with WRBDrones",
 
   "_comment_subtitles": "===== Subtitles =====",
