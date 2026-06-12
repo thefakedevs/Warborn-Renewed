@@ -2,6 +2,7 @@ package ru.liko.warbornrenewed.client;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -49,6 +50,12 @@ public class RebBackpackToggleHandler {
 
         // Обновляем NBT локально для мгновенного отображения
         RebBackpackItem.setRebEnabled(backpack, newState);
+        player.displayClientMessage(
+                Component.translatable(newState
+                        ? "message.warbornrenewed.reb_backpack.enabled"
+                        : "message.warbornrenewed.reb_backpack.disabled"),
+                true
+        );
 
         // Синхронизируем с сервером (сервер также проиграет звук)
         NetworkHandler.sendToServer(new RebBackpackTogglePacket(newState));

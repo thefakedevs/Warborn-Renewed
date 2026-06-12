@@ -178,6 +178,8 @@
   "tooltip.warbornrenewed.reb.disabled": "Disabled",
   "tooltip.warbornrenewed.reb.radius": "Jamming Zone: %s blocks",
   "tooltip.warbornrenewed.reb.wrbdrones_compat": "Compatible with WRBDrones",
+  "message.warbornrenewed.reb_backpack.enabled": "REB backpack enabled",
+  "message.warbornrenewed.reb_backpack.disabled": "REB backpack disabled",
 
   "_comment_subtitles": "===== Subtitles =====",
   "subtitle.warbornrenewed.armor.body_equip": "Armor plates secured",

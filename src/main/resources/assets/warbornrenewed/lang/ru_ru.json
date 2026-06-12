@@ -178,6 +178,8 @@
   "tooltip.warbornrenewed.reb.disabled": "Выключен",
   "tooltip.warbornrenewed.reb.radius": "Зона глушения: %s блоков",
   "tooltip.warbornrenewed.reb.wrbdrones_compat": "Совместим с WRBDrones",
+  "message.warbornrenewed.reb_backpack.enabled": "РЭБ рюкзак включен",
+  "message.warbornrenewed.reb_backpack.disabled": "РЭБ рюкзак выключен",
 
   "_comment_subtitles": "===== Субтитры =====",
   "subtitle.warbornrenewed.armor.body_equip": "Плиты зафиксированы",
